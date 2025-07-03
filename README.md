@@ -1,31 +1,18 @@
 # Sistema de Aluguel de Veículos para SA-MP
 
-<p align="center">
-  <img src="https://i.imgur.com/YOUR_IMAGE_HERE.png" alt="Rent Vehicle System" width="600">
-</p>
 
 ## 📋 Descrição
 
-Sistema profissional de aluguel de veículos para servidores SA-MP. Este sistema permite que jogadores aluguem bicicletas em pontos específicos do mapa, com cobrança por minuto e tempo máximo de uso.
+Sistema de aluguel de veículos para servidores SA-MP. Este sistema permite que jogadores aluguem bicicletas em pontos específicos do mapa, com cobrança por minuto e tempo máximo de uso.
 
 ## ✨ Funcionalidades
 
 - Pontos de aluguel configuráveis pelo mapa
 - Sistema de cobrança por minuto
 - Tempo máximo de aluguel configurável
-- Verificação de proximidade para alugar veículos
 - Comandos para alugar (`/Alugar`) e devolver (`/Devolver`) veículos
 - Texto 3D informativo sobre o veículo alugado
 - Ícones no mapa para localizar pontos de aluguel
-- Sistema de iteração eficiente para gerenciar jogadores com veículos alugados
-
-## 🛠️ Instalação
-
-1. Baixe o arquivo `RentVehicle.pwn`
-2. Coloque-o na pasta `gamemodes` do seu servidor
-3. Compile o arquivo usando o compilador Pawn
-4. Adicione `RentVehicle` ao seu arquivo `server.cfg` na linha `gamemode0`
-5. Certifique-se de ter todas as dependências instaladas (veja abaixo)
 
 ## 📦 Dependências
 
@@ -33,18 +20,12 @@ Este sistema requer as seguintes dependências:
 
 ### Streamer Plugin v2.9.6 v1.0.0
 - Download: [GitHub - samp-incognito/samp-streamer-plugin](https://github.com/samp-incognito/samp-streamer-plugin/releases)
-- Instalação: Coloque os arquivos `streamer.dll` (Windows) ou `streamer.so` (Linux) na pasta `plugins` do seu servidor
-- Adicione `streamer` à linha `plugins` no seu arquivo `server.cfg`
 
 ### YSI-Includes
 - Download: [GitHub - pawn-lang/YSI-Includes](https://github.com/pawn-lang/YSI-Includes)
-- Instalação: Extraia os arquivos para a pasta `pawno/include` do seu servidor
 
 ### Pawn.CMD 3.4.0
 - Download: [GitHub - katursis/Pawn.CMD](https://github.com/katursis/Pawn.CMD/releases)
-- Instalação: Coloque os arquivos `pawncmd.dll` (Windows) ou `pawncmd.so` (Linux) na pasta `plugins` do seu servidor
-- Coloque o arquivo `Pawn.CMD.inc` na pasta `pawno/include` do seu servidor
-- Adicione `pawncmd` à linha `plugins` no seu arquivo `server.cfg`
 
 ## 🔧 Configuração
 
