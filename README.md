@@ -1,17 +1,16 @@
-# Sistema de Aluguel de Veículos para SA-MP
-
+# SA-MP Bicycle Rental System
 
 ## 📋 Descrição
 
-Sistema de aluguel de veículos para servidores SA-MP. Este sistema permite que jogadores aluguem bicicletas em pontos específicos do mapa, com cobrança por minuto e tempo máximo de uso.
+Sistema de aluguel de bicicletas para servidores SA-MP. Este sistema permite que jogadores aluguem bicicletas em pontos específicos do mapa, com cobrança por minuto e tempo máximo de uso.
 
 ## ✨ Funcionalidades
 
-- Pontos de aluguel configuráveis pelo mapa
+- Pontos de aluguel de bicicletas configuráveis pelo mapa
 - Sistema de cobrança por minuto
 - Tempo máximo de aluguel configurável
-- Comandos para alugar (`/Alugar`) e devolver (`/Devolver`) veículos
-- Texto 3D informativo sobre o veículo alugado
+- Comandos para alugar (`/Alugar`) e devolver (`/Devolver`) bicicletas
+- Texto 3D informativo sobre a bicicleta alugada
 - Ícones no mapa para localizar pontos de aluguel
 
 ## 📦 Dependências
@@ -37,11 +36,11 @@ Você pode configurar o sistema editando as seguintes constantes no início do a
 #define MAX_RENT_TIME           60      // Tempo máximo em minutos
 #define RENT_PICKUP_MODEL       1239    // Modelo do pickup
 #define RENT_MAPICON_MODEL      55      // Modelo do ícone no mapa
-#define RENT_VEHICLE_MODEL      509     // Modelo do veículo (509 = Bicicleta)
-#define RENT_VEHICLE_COLOR_ID   3       // Cor do veículo (3 = Vermelho)
+#define RENT_VEHICLE_MODEL      509     // Modelo da bicicleta (509 = Bicicleta)
+#define RENT_VEHICLE_COLOR_ID   3       // Cor da bicicleta (3 = Vermelho)
 ```
 
-Para adicionar ou modificar pontos de aluguel, edite o array `RentVehicles`:
+Para adicionar ou modificar pontos de aluguel de bicicletas, edite o array `RentVehicles`:
 
 ```pawn
 static RentVehicles[RENT_LIMITS_POINTS][E_RENT_VEHICLE] = 
@@ -61,6 +60,7 @@ static RentVehicles[RENT_LIMITS_POINTS][E_RENT_VEHICLE] =
 - MARINHO
 - GitHub: [eykMarinho](https://github.com/eykMarinho)
 - YouTube: [@eykMarinho](https://www.youtube.com/@eykMarinho)
+
 
 ## 📄 Licença
 
