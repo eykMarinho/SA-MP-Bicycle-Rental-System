@@ -12,7 +12,7 @@
     ║                        RENT VEHICLE SYSTEM                           ║
     ║                                                                      ║
     ║  Desenvolvido por: MARINHO                                           ║
-    ║  Sistema profissional de aluguel de veículos                         ║
+    ║                                                                      ║
     ║                                                                      ║
     ║                                                                      ║
     ║  GitHub: https://github.com/eykMarinho                               ║
