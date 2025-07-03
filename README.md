@@ -28,7 +28,7 @@ Este sistema requer as seguintes dependências:
 
 ## 🔧 Configuração
 
-Você pode configurar o sistema editando as seguintes define no início do arquivo:
+Você pode configurar o sistema editando os seguintes #define no início do arquivo:
 
 ```pawn
 #define RENT_LIMITS_POINTS      2       // Número de pontos de aluguel
